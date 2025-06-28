@@ -1,5 +1,5 @@
 { pkgs, ... }: {
-  packages = [ pkgs.nodejs_22 ];
+  packages = [ pkgs.nodejs_20 ];
   bootstrap = ''
     npx --prefer-offline -y @angular/cli@19.2.15 new --skip-git --defaults --skip-install --directory "$WS_NAME" "$WS_NAME"
     mkdir "$WS_NAME"/.idx
