@@ -13,6 +13,14 @@
     # Search for the extensions you want on https://open-vsx.org/ and use "publisher.id"
     extensions = [
       "angular.ng-template"
+      "pmneo.tsimporter"
+      "esbenp.prettier-vscode"
+      "eamodio.gitlens"
+      "PKief.material-icon-theme"
+      "dbaeumer.vscode-eslint"
+      "formulahendry.auto-rename-tag"
+      "CoenraadS.bracket-pair-colorizer"
+      "cyrilletuzi.angular-schematics"
     ];
     workspace = {
       # Runs when a workspace is first created with this `dev.nix` file
